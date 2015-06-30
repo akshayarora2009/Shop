@@ -25,7 +25,11 @@
 document.addEventListener("deviceready", function () {
                         
 	cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
-    alert("Location is " + (enabled ? "enabled" : "disabled"));
+    //alert("Location is " + (enabled ? "enabled" : "disabled"));
+    if(!enabled)
+    {
+        cordova.plugins.diagnostic.switchToLocationSettings();
+    }
 }, function(error){
     console.error("The following error occurred: "+error);
 });                    }, false);
