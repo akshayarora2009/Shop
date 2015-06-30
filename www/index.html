@@ -18,30 +18,11 @@
     <script type="text/javascript" src="pubsub.js"></script>
 
 
-    <script type="text/jsx" src="home.js"></script>
-
-	<script type="text/javascript">
-
-document.addEventListener("deviceready", function () {
-                        
-	cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
-    //alert("Location is " + (enabled ? "enabled" : "disabled"));
-    if(!enabled)
-    {
-	alert('Location is disabled');
-        cordova.plugins.diagnostic.switchToLocationSettings();
-    }
-else
-{
- 	alert('Location is enabled');
-
-}
-}, function(error){
-    console.error("The following error occurred: "+error);
-});                    }, false);
+    
 
 
-</script>
+<script type="text/jsx" src="home.js"></script>
+
 
 </head>
 <body>
