@@ -11,7 +11,8 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova.plugins.diagnostic": "0.0.1"
+    "cordova.plugins.diagnostic": "0.0.1",
+    "cordova-plugin-geolocation": "1.0.2-dev"
 }
 // BOTTOM OF METADATA
 });

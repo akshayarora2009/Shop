@@ -10,7 +10,7 @@
                     "CoreLocation.framework": [
                         {
                             "xml": false,
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -21,6 +21,20 @@
                         {
                             "xml": "<feature name=\"Diagnostic\"><param name=\"ios-package\" value=\"Diagnostic\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "NSLocationWhenInUseUsageDescription": [
+                        {
+                            "xml": "<string />",
+                            "count": 1
                         }
                     ]
                 }
@@ -29,6 +43,9 @@
     },
     "installed_plugins": {
         "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.arora.shop"
         }
     },

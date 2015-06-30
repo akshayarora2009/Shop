@@ -28,8 +28,14 @@ document.addEventListener("deviceready", function () {
     //alert("Location is " + (enabled ? "enabled" : "disabled"));
     if(!enabled)
     {
+	alert('Location is disabled');
         cordova.plugins.diagnostic.switchToLocationSettings();
     }
+else
+{
+ 	alert('Location is enabled');
+
+}
 }, function(error){
     console.error("The following error occurred: "+error);
 });                    }, false);

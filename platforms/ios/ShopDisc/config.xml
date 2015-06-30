@@ -26,4 +26,7 @@
     <feature name="Diagnostic">
         <param name="ios-package" value="Diagnostic" />
     </feature>
+    <feature name="Geolocation">
+        <param name="ios-package" value="CDVLocation" />
+    </feature>
 </widget>
