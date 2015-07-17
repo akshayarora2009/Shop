@@ -4,6 +4,15 @@
     <feature name="Diagnostic">
         <param name="android-package" value="cordova.plugins.Diagnostic" />
     </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="ActivityIndicator">
+        <param name="android-package" value="org.apache.cordova.plugin.ActivityIndicator" />
+    </feature>
     <name>ShopDisc</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
