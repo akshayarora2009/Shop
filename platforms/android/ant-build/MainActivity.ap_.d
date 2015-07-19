@@ -60,6 +60,7 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\_where-is-www.txt \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\cordova.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\cordova_plugins.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\customBootstrap.css \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\home.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\index.html \

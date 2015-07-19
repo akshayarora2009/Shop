@@ -1,4 +1,6 @@
 ﻿var point;
+var category = 'default';
+var uniques = [];
 document.addEventListener("deviceready", onDeviceReady, false);
 
 
@@ -88,37 +90,39 @@ var OfferListings = React.createClass({
 
     mixins: [ParseReact.Mixin],
 
+    getInitialState: function(){
+        return {update: true};
+    },
+
 
 
     observe: function(){
 
-        var uniques = [];
-        var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
-
-
-        for(var i=0; i<off.length; ++i)
+        if(category == 'default')
         {
-            if(uniques.indexOf(off[i].MasterCategory) > -1)
-            {
-                // array already has this value. Discard
-            }
-            else
-            {
-                uniques.push(off[i].MaterCategory);
-            }
-
+            var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
         }
+        else
+        {
+            var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
+        }
+
 
 
 
         return {
 
             offers: off,
-            uniqueCategory: uniques
+
             
 
         }
 
+    },
+    categoryChanged: function(){
+        alert('category changed');
+        category = event.target.value;
+        this.setState({update: !this.state.update});
     },
 
 
@@ -129,15 +133,50 @@ var OfferListings = React.createClass({
 
         return(
             <div>
-                <nav class="navbar navbar-default">
-                    <div class="container-fluid">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="#">
-                                <p>Akshay</p>
-                                </a>
+                <nav className="navbar navbar-default navbar-fixed-top">
+                    <div className="container-fluid">
+
+                        <div className="navbar-header">
+                            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span className="sr-only">Toggle navigation</span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                            </button>
+                            <a className="navbar-brand" href="#">Brand</a>
+                            <select className="form-control" onChange={this.categoryChanged}>
+                                <option value="default">All</option>
+                                <option value="Food & Beverages">Food & Beverages</option>
+                                <option value="Grocery">Grocery</option>
+                                <option value="Clothing">Clothing</option>
+                                <option value="Random">Random</option>
+                            </select>
+                        </div>
+
+
+                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul className="nav navbar-nav">
+                                <li className="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">Link</a></li>
+                                <li className="dropdown">
+                                    <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                    <ul className="dropdown-menu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" className="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li role="separator" className="divider"></li>
+                                        <li><a href="#">One more separated link</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+
                             </div>
                         </div>
                     </nav>
+
             <ul className="list-group">
 
             {
@@ -146,7 +185,7 @@ var OfferListings = React.createClass({
                     console.log(c);
                     
 
-                    return <li key={c.objectId} className="list-group-item">{c.Title}<span>{c.MasterCategory}</span><br/>{c.PostedBy.PlaceName}</li>
+                    return <li key={c.objectId} className="list-group-item">{c.Title}<br/>{c.PostedBy.PlaceName}<br/>{c.MasterCategory}</li>
                     
                 })
             }
