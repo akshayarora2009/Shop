@@ -98,13 +98,14 @@ function ReactCode(){
 
         observe: function(){
 
+            var off;
             if(category == 'default')
             {
-                var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
+                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
             }
             else
             {
-                var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
+                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
             }
 
 
@@ -112,7 +113,7 @@ function ReactCode(){
 
             return {
 
-                offers: off,
+                offers: off
 
 
 
@@ -194,11 +195,12 @@ function ReactCode(){
                                 </div>
                                 <div className="modal-footer">
                                     <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </div>
+
 
                     <ul className="list-group">
 
@@ -208,7 +210,19 @@ function ReactCode(){
                                 console.log(c);
 
 
-                                return <div onClick={myObj.offerClicked.bind(this,c)}><li key={c.objectId} className="list-group-item">{c.Title}<br/>{c.PostedBy.PlaceName}<br/>{c.MasterCategory}</li></div>
+                                return <div onClick={myObj.offerClicked.bind(this,c)}><li key={c.objectId} className="list-group-item"><div className="media">
+                                    <div className="media-left">
+                                        <a href="#">
+                                            <img style={{height : '64px',width:'64px'}} className="media-object" src={c.Image._url} alt="..."></img>
+                                            </a>
+                                        </div>
+                                        <div className="media-body">
+                                            <h4 className="media-heading">{c.Title}</h4>
+                                            <p>{c.PostedBy.PlaceName}</p>
+
+
+                                        </div>
+                                    </div></li></div>
 
                             })
                         }
