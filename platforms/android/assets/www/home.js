@@ -1,17 +1,94 @@
 ﻿var point;
 var category = 'default';
 var uniques = [];
+var ifLocationOff = false;
 document.addEventListener("deviceready", onDeviceReady, false);
+
+
+function onResume(){
+
+    if(ifLocationOff === true)
+    {
+        cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
+            //alert("Location is " + (enabled ? "enabled" : "disabled"));
+            if(!enabled)
+            {
+                ifLocationOff = true;
+                function onConfirm(buttonIndex) {
+                    //alert('You selected button ' + buttonIndex);
+                    if(buttonIndex == 1)
+                    {
+                        cordova.plugins.diagnostic.switchToLocationSettings();
+                    }
+                    else
+                    {
+                        navigator.app.exitApp();
+                    }
+                }
+
+// Show a custom confirmation dialog
+//
+
+                navigator.notification.confirm(
+                    'Oflyne needs Location enabled', // message
+                    onConfirm,            // callback to invoke with index of button pressed
+                    'Location is disabled',           // title
+                    'Go to Settings,Exit'         // buttonLabels
+                );
+
+
+                return;
+            }
+            else
+            {
+                //alert('Location is enabled');
+                ifLocationOff = false;
+
+            }
+            ActivityIndicator.show("Getting your location");
+            var onSuccess = function(position) {
+                ActivityIndicator.hide();
+                point = new Parse.GeoPoint({latitude: position.coords.latitude, longitude: position.coords.longitude});
+
+                /*alert('Latitude: '          + position.coords.latitude          + '\n' +
+                    'Longitude: '         + position.coords.longitude         + '\n' +
+                    'Altitude: '          + position.coords.altitude          + '\n' +
+                    'Accuracy: '          + position.coords.accuracy          + '\n' +
+                    'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                    'Heading: '           + position.coords.heading           + '\n' +
+                    'Speed: '             + position.coords.speed             + '\n' +
+                    'Timestamp: '         + position.timestamp                + '\n');*/
+
+                ReactCode();
+            };
+
+// onError Callback receives a PositionError object
+//
+            function onError(error) {
+                alert('code: '    + error.code    + '\n' +
+                    'message: ' + error.message + '\n');
+            }
+
+            navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+
+
+
+        });
+
+    }
+}
 
 
 
 function onDeviceReady(){
-
+    document.addEventListener("resume",onResume,false);
 
     cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
         //alert("Location is " + (enabled ? "enabled" : "disabled"));
         if(!enabled)
         {
+            ifLocationOff = true;
             function onConfirm(buttonIndex) {
                 //alert('You selected button ' + buttonIndex);
                 if(buttonIndex == 1)
@@ -98,13 +175,14 @@ function ReactCode(){
 
         observe: function(){
 
+            var off;
             if(category == 'default')
             {
-                var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
+                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
             }
             else
             {
-                var off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
+                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
             }
 
 
@@ -112,15 +190,14 @@ function ReactCode(){
 
             return {
 
-                offers: off,
-
+                offers: off
 
 
             }
 
         },
         categoryChanged: function(){
-            alert('category changed');
+
             category = event.target.value;
             this.setState({update: !this.state.update});
         },
