@@ -18,6 +18,12 @@
                             "xml": true,
                             "count": 2
                         }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -42,6 +48,10 @@
                         },
                         {
                             "xml": "<feature name=\"ActivityIndicator\"><param name=\"ios-package\" value=\"ActivityIndicator\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -73,6 +83,9 @@
             "PACKAGE_NAME": "com.arora.shop"
         },
         "org.apache.cordova.plugin.ActivityIndicator": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.arora.shop"
         }
     },

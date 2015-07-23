@@ -51,13 +51,13 @@ function onResume(){
                 point = new Parse.GeoPoint({latitude: position.coords.latitude, longitude: position.coords.longitude});
 
                 /*alert('Latitude: '          + position.coords.latitude          + '\n' +
-                    'Longitude: '         + position.coords.longitude         + '\n' +
-                    'Altitude: '          + position.coords.altitude          + '\n' +
-                    'Accuracy: '          + position.coords.accuracy          + '\n' +
-                    'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
-                    'Heading: '           + position.coords.heading           + '\n' +
-                    'Speed: '             + position.coords.speed             + '\n' +
-                    'Timestamp: '         + position.timestamp                + '\n');*/
+                 'Longitude: '         + position.coords.longitude         + '\n' +
+                 'Altitude: '          + position.coords.altitude          + '\n' +
+                 'Accuracy: '          + position.coords.accuracy          + '\n' +
+                 'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                 'Heading: '           + position.coords.heading           + '\n' +
+                 'Speed: '             + position.coords.speed             + '\n' +
+                 'Timestamp: '         + position.timestamp                + '\n');*/
 
                 ReactCode();
             };
@@ -77,12 +77,48 @@ function onResume(){
         });
 
     }
+
+    var internet = navigator.connection.type;
+
+    if( internet == "none")
+    {
+
+        function alertDismissed() {
+            navigator.app.exitApp();
+        }
+
+        navigator.notification.alert(
+            'Cannot connect to the internet',  // message
+            alertDismissed,         // callback
+            'No connection',            // title
+            'Exit'                  // buttonName
+        );
+
+    }
 }
 
 
 
 function onDeviceReady(){
     document.addEventListener("resume",onResume,false);
+
+    var internet = navigator.connection.type;
+
+    if( internet == "none")
+    {
+
+        function alertDismissed() {
+           navigator.app.exitApp();
+        }
+
+        navigator.notification.alert(
+            'Cannot connect to the internet',  // message
+            alertDismissed,         // callback
+            'No connection',            // title
+            'Exit'                  // buttonName
+        );
+
+    }
 
     cordova.plugins.diagnostic.isLocationEnabled(function(enabled){
         //alert("Location is " + (enabled ? "enabled" : "disabled"));
@@ -105,7 +141,7 @@ function onDeviceReady(){
 //
 
             navigator.notification.confirm(
-                'Oflyne needs Location enabled', // message
+                'Oflyn needs Location enabled', // message
                 onConfirm,            // callback to invoke with index of button pressed
                 'Location is disabled',           // title
                 'Go to Settings,Exit'         // buttonLabels
@@ -125,13 +161,13 @@ function onDeviceReady(){
             point = new Parse.GeoPoint({latitude: position.coords.latitude, longitude: position.coords.longitude});
 
             /*alert('Latitude: '          + position.coords.latitude          + '\n' +
-                'Longitude: '         + position.coords.longitude         + '\n' +
-                'Altitude: '          + position.coords.altitude          + '\n' +
-                'Accuracy: '          + position.coords.accuracy          + '\n' +
-                'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
-                'Heading: '           + position.coords.heading           + '\n' +
-                'Speed: '             + position.coords.speed             + '\n' +
-                'Timestamp: '         + position.timestamp                + '\n');*/
+             'Longitude: '         + position.coords.longitude         + '\n' +
+             'Altitude: '          + position.coords.altitude          + '\n' +
+             'Accuracy: '          + position.coords.accuracy          + '\n' +
+             'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+             'Heading: '           + position.coords.heading           + '\n' +
+             'Speed: '             + position.coords.speed             + '\n' +
+             'Timestamp: '         + position.timestamp                + '\n');*/
 
             ReactCode();
         };
@@ -290,15 +326,15 @@ function ReactCode(){
                                     <div className="media-left">
                                         <a href="#">
                                             <img style={{height : '64px',width:'64px'}} className="media-object" src={c.Image._url} alt="..."></img>
-                                            </a>
-                                        </div>
-                                        <div className="media-body">
-                                            <h4 className="media-heading">{c.Title}</h4>
-                                            <p>{c.PostedBy.PlaceName}</p>
+                                        </a>
+                                    </div>
+                                    <div className="media-body">
+                                        <h4 className="media-heading">{c.Title}</h4>
+                                        <p>{c.PostedBy.PlaceName}</p>
 
 
-                                        </div>
-                                    </div></li></div>
+                                    </div>
+                                </div></li></div>
 
                             })
                         }

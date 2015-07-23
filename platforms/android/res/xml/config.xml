@@ -13,6 +13,9 @@
     <feature name="ActivityIndicator">
         <param name="android-package" value="org.apache.cordova.plugin.ActivityIndicator" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
     <name>ShopDisc</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

@@ -43,6 +43,10 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -60,6 +64,10 @@
                         },
                         {
                             "xml": "<feature name=\"ActivityIndicator\"><param name=\"android-package\" value=\"org.apache.cordova.plugin.ActivityIndicator\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -81,6 +89,9 @@
             "PACKAGE_NAME": "com.arora.shop"
         },
         "org.apache.cordova.plugin.ActivityIndicator": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "com.arora.shop"
         }
     },

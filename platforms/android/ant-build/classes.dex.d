@@ -30,6 +30,8 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\c
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$6$1.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$6.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager$1.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\networkinformation\NetworkManager.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\plugin\ActivityIndicator$1.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\plugin\ActivityIndicator.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\plugin\AndroidProgressHUD.class \

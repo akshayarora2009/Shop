@@ -38,4 +38,7 @@
     <feature name="ActivityIndicator">
         <param name="ios-package" value="ActivityIndicator" />
     </feature>
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
 </widget>

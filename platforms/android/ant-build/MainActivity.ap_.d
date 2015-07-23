@@ -85,6 +85,7 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-ha
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-dialogs \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-vibration \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova.plugins.diagnostic \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.plugin.ActivityIndicator \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-dialogs\www \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-dialogs\www\android \
@@ -94,6 +95,9 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plu
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-vibration\www\vibration.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova.plugins.diagnostic\www \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova.plugins.diagnostic\www\diagnostic.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\Connection.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.network-information\www\network.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.plugin.ActivityIndicator\www \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\org.apache.cordova.plugin.ActivityIndicator\www\activityIndicator.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\react\JSXTransformer.js \
