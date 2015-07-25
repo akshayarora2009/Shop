@@ -108,7 +108,7 @@ function onDeviceReady(){
     {
 
         function alertDismissed() {
-           navigator.app.exitApp();
+            navigator.app.exitApp();
         }
 
         navigator.notification.alert(
