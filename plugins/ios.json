@@ -10,7 +10,7 @@
                     "CoreLocation.framework": [
                         {
                             "xml": false,
-                            "count": 2
+                            "count": 3
                         }
                     ],
                     "AudioToolbox.framework": [
@@ -36,7 +36,7 @@
                         },
                         {
                             "xml": "<feature name=\"Geolocation\"><param name=\"ios-package\" value=\"CDVLocation\" /></feature>",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
@@ -53,6 +53,14 @@
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"ios-package\" value=\"CDVConnection\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerPlugin\"><param name=\"ios-package\" value=\"SpinnerPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Directions\"><param name=\"ios-package\" value=\"Directions\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -62,7 +70,7 @@
                     "NSLocationWhenInUseUsageDescription": [
                         {
                             "xml": "<string />",
-                            "count": 1
+                            "count": 2
                         }
                     ]
                 }
@@ -86,6 +94,15 @@
             "PACKAGE_NAME": "com.arora.shop"
         },
         "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "it.mobimentum.phonegapspinnerplugin": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "cordova-plugin-directions": {
             "PACKAGE_NAME": "com.arora.shop"
         }
     },

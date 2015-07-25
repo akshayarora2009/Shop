@@ -51,6 +51,9 @@
 		67BBC047C26E4C5AB293C544 /* CDVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A899F566AD432C8F848A06 /* CDVConnection.m */; };
 		AC76F867C30E44478EB39C8D /* CDVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 829A49ECA3AB4496B759A2AD /* CDVReachability.m */; };
 		3DA49BE0998F4EA1B5DF09EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4FEC40C6A44071B5D7BFEF /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		97E3ED80F0EF4399A458BF7E /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2179A371C649AFA8F0ACDA /* CDVLocation.m */; };
+		3BA43749282E48F093AF7BC7 /* SpinnerPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DBB00B829B4C138A7B0BF7 /* SpinnerPlugin.m */; };
+		2E80B7A951044F1F93304BE2 /* Directions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A0071C51C5440BAE374716 /* Directions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +139,12 @@
 		1ED97CFD13BA42BFB08798F2 /* CDVConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVConnection.h"; path = "org.apache.cordova.network-information/CDVConnection.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		BB97E863E699437399C37AF3 /* CDVReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVReachability.h"; path = "org.apache.cordova.network-information/CDVReachability.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		BC4FEC40C6A44071B5D7BFEF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		7B2179A371C649AFA8F0ACDA /* CDVLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVLocation.m"; path = "org.apache.cordova.geolocation/CDVLocation.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		8562176367AD48208FC3D745 /* CDVLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVLocation.h"; path = "org.apache.cordova.geolocation/CDVLocation.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E8DBB00B829B4C138A7B0BF7 /* SpinnerPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SpinnerPlugin.m"; path = "it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		434AC4999634459B9E1F2D33 /* SpinnerPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SpinnerPlugin.h"; path = "it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		73A0071C51C5440BAE374716 /* Directions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Directions.m"; path = "cordova-plugin-directions/Directions.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		6632074B5A6F416B8FDEBB04 /* Directions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Directions.h"; path = "cordova-plugin-directions/Directions.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +266,12 @@
 				829A49ECA3AB4496B759A2AD /* CDVReachability.m */,
 				1ED97CFD13BA42BFB08798F2 /* CDVConnection.h */,
 				BB97E863E699437399C37AF3 /* CDVReachability.h */,
+				7B2179A371C649AFA8F0ACDA /* CDVLocation.m */,
+				8562176367AD48208FC3D745 /* CDVLocation.h */,
+				E8DBB00B829B4C138A7B0BF7 /* SpinnerPlugin.m */,
+				434AC4999634459B9E1F2D33 /* SpinnerPlugin.h */,
+				73A0071C51C5440BAE374716 /* Directions.m */,
+				6632074B5A6F416B8FDEBB04 /* Directions.h */,
 			);
 			name = Plugins;
 			path = "ShopDisc/Plugins";
@@ -450,6 +465,9 @@
 				107583F739104B509AA0336C /* MBProgressHUD.m in Sources */,
 				67BBC047C26E4C5AB293C544 /* CDVConnection.m in Sources */,
 				AC76F867C30E44478EB39C8D /* CDVReachability.m in Sources */,
+				97E3ED80F0EF4399A458BF7E /* CDVLocation.m in Sources */,
+				3BA43749282E48F093AF7BC7 /* SpinnerPlugin.m in Sources */,
+				2E80B7A951044F1F93304BE2 /* Directions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -41,4 +41,10 @@
     <feature name="NetworkStatus">
         <param name="ios-package" value="CDVConnection" />
     </feature>
+    <feature name="SpinnerPlugin">
+        <param name="ios-package" value="SpinnerPlugin" />
+    </feature>
+    <feature name="Directions">
+        <param name="ios-package" value="Directions" />
+    </feature>
 </widget>

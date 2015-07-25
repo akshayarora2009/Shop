@@ -45,7 +45,7 @@ function onResume(){
                 ifLocationOff = false;
 
             }
-            ActivityIndicator.show("Getting your location");
+            //ActivityIndicator.show("Getting your location");
             var onSuccess = function(position) {
                 ActivityIndicator.hide();
                 point = new Parse.GeoPoint({latitude: position.coords.latitude, longitude: position.coords.longitude});
@@ -69,7 +69,7 @@ function onResume(){
                     'message: ' + error.message + '\n');
             }
 
-            navigator.geolocation.getCurrentPosition(onSuccess, onError);
+            navigator.geolocation.getCurrentPosition(onSuccess);
 
 
 
@@ -155,9 +155,11 @@ function onDeviceReady(){
             //alert('Location is enabled');
 
         }
-        ActivityIndicator.show("Getting your location");
+       // ActivityIndicator.show("Getting your location");
+        spinnerplugin.show();
         var onSuccess = function(position) {
-            ActivityIndicator.hide();
+            //ActivityIndicator.hide();
+            spinnerplugin.hide();
             point = new Parse.GeoPoint({latitude: position.coords.latitude, longitude: position.coords.longitude});
 
             /*alert('Latitude: '          + position.coords.latitude          + '\n' +
@@ -179,7 +181,7 @@ function onDeviceReady(){
                 'message: ' + error.message + '\n');
         }
 
-        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+        navigator.geolocation.getCurrentPosition(onSuccess,onError,{maximumAge: 0, timeout: 10000, enableHighAccuracy:true});
 
 
 
@@ -237,10 +239,21 @@ function ReactCode(){
             category = event.target.value;
             this.setState({update: !this.state.update});
         },
+        navigate: function(c){
+            alert('works');
+        alert(c.latitude);
+            alert(c.longitude);
+        directions.navigateTo("51.50722", "-0.12750");
+
+        },
+
         offerClicked: function(c){
 
-            $('.modal-body').text(c.Title);
+
+
+            $('.modal-body').html("<h3>" + c.Title + "</h3><br/><button class='btn btn-default' onclick='this.navigate(c);'>Get Directions</button>" );
             $('#myModal').modal('show');
+
         },
 
 
@@ -251,67 +264,42 @@ function ReactCode(){
 
             return(
                 <div>
-                    <nav className="navbar navbar-default navbar-fixed-top">
-                        <div className="container-fluid">
-
-                            <div className="navbar-header">
-                                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span className="sr-only">Toggle navigation</span>
-                                    <span className="icon-bar"></span>
-                                    <span className="icon-bar"></span>
-                                    <span className="icon-bar"></span>
-                                </button>
-                                <a className="navbar-brand" href="#">Brand</a>
-                                <select className="form-control" onChange={this.categoryChanged}>
-                                    <option value="default">All</option>
-                                    <option value="Food & Beverages">Food & Beverages</option>
-                                    <option value="Grocery">Grocery</option>
-                                    <option value="Clothing">Clothing</option>
-                                    <option value="Random">Random</option>
-                                </select>
-                            </div>
-
-
-                            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul className="nav navbar-nav">
-                                    <li className="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                                    <li><a href="#">Link</a></li>
-                                    <li className="dropdown">
-                                        <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul className="dropdown-menu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Another action</a></li>
-                                            <li><a href="#">Something else here</a></li>
-                                            <li role="separator" className="divider"></li>
-                                            <li><a href="#">Separated link</a></li>
-                                            <li role="separator" className="divider"></li>
-                                            <li><a href="#">One more separated link</a></li>
-                                        </ul>
-                                    </li>
+                    <div className="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
+                        <a className="navmenu-brand visible-md visible-lg" href="#">Oflyn</a>
+                        <ul className="nav navmenu-nav">
+                            <li className="active"><a href="./">..</a></li>
+                        </ul>
+                        <ul className="nav navmenu-nav">
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li className="dropdown">
+                                <a href="#" className="dropdown-toggle" data-toggle="dropdown">Dropdown <b className="caret"></b></a>
+                                <ul className="dropdown-menu navmenu-nav">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li className="divider"></li>
+                                    <li className="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
                                 </ul>
-
-
-                            </div>
-                        </div>
-                    </nav>
-
-                    <div className="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div className="modal-dialog" role="document">
-                            <div className="modal-content">
-                                <div className="modal-header">
-                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 className="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div className="modal-body">
-                                    ...
-                                </div>
-                                <div className="modal-footer">
-                                    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-
-                                </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
+
+                    <div className="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+                        <button type="button" id="left_menu_toggle" className="navbar-toggle pull-left" data-toggle="offcanvas" data-target=".navmenu">
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                            <span className="icon-bar"></span>
+                        </button>
+                        <a className="navbar-brand" href="#">Oflyn</a>
+                    </div>
+
+                    <Modal/>
+
+
 
 
                     <ul className="list-group">
@@ -330,7 +318,8 @@ function ReactCode(){
                                     </div>
                                     <div className="media-body">
                                         <h4 className="media-heading">{c.Title}</h4>
-                                        <p>{c.PostedBy.PlaceName}</p>
+                                        <h5>{c.PostedBy.PlaceName}</h5>
+                                        <h5>{c.PostedBy.BranchName}<span className="pull-right">{(point.kilometersTo(c.pos)).toFixed(2)} km</span></h5>
 
 
                                     </div>

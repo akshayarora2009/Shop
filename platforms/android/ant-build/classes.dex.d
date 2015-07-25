@@ -11,6 +11,9 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\com\arora\sh
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\com\arora\shop\R$xml.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\com\arora\shop\R.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\cordova\plugins\Diagnostic.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\it\mobimentum\phonegapspinnerplugin\ProgressActivity.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\it\mobimentum\phonegapspinnerplugin\SpinnerPlugin$1.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\it\mobimentum\phonegapspinnerplugin\SpinnerPlugin.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$1.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$2$1.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\dialogs\Notification$2$2.class \
@@ -36,4 +39,5 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\c
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\plugin\ActivityIndicator.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\plugin\AndroidProgressHUD.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\org\apache\cordova\vibration\Vibration.class \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\classes\uk\co\ilee\directions\Directions.class \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\ant-build\dexedLibs\classes-4be4bb92ecd16a4414c0e714c47ce3e4.jar \

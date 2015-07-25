@@ -38,14 +38,20 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:configChanges=\"orientation|keyboardHidden|keyboard|screenSize|locale\" android:launchMode=\"singleInstance\" android:name=\"it.mobimentum.phonegapspinnerplugin.ProgressActivity\" android:theme=\"@android:style/Theme.Translucent.NoTitleBar\"><intent-filter></intent-filter></activity>",
                             "count": 1
                         }
                     ]
@@ -68,6 +74,14 @@
                         },
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SpinnerPlugin\"><param name=\"android-package\" value=\"it.mobimentum.phonegapspinnerplugin.SpinnerPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Directions\"><param name=\"android-package\" value=\"uk.co.ilee.directions.Directions\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -92,6 +106,15 @@
             "PACKAGE_NAME": "com.arora.shop"
         },
         "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "it.mobimentum.phonegapspinnerplugin": {
+            "PACKAGE_NAME": "com.arora.shop"
+        },
+        "cordova-plugin-directions": {
             "PACKAGE_NAME": "com.arora.shop"
         }
     },

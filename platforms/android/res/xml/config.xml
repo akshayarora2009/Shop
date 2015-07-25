@@ -16,6 +16,12 @@
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
+    <feature name="SpinnerPlugin">
+        <param name="android-package" value="it.mobimentum.phonegapspinnerplugin.SpinnerPlugin" />
+    </feature>
+    <feature name="Directions">
+        <param name="android-package" value="uk.co.ilee.directions.Directions" />
+    </feature>
     <name>ShopDisc</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

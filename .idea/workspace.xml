@@ -2,17 +2,446 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6d6b162-7ae0-4735-9e76-e53bb370826f" name="Default" comment="Added images to listings.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/AbstractHttpInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/AbstractHttpOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/AbstractOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/Address.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/App$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/App$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/App$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/App.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/AuthenticationToken.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Base64.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CallbackContext.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/Config.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/Connection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/ConnectionPool.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaArgs.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaChromeClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaInterface.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaResourceApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$ActivityResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView$Level16Apis.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/CordovaWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/DirectoryManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor$FaultHidingOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Editor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache$Snapshot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/DiskLruCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Dns.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/DroidGap.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/ExifHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/ExposedJsApi.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/FaultRecoveringOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/FileHelper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser$CacheControlHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HeaderParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator$Challenge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpAuthenticator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpDate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpEngine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$CacheRequestImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$CacheRequestImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$CacheRequestImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$Entry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntryCacheResponse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$EntryCacheResponse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache$EntrySecureCacheResponse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache$EntrySecureCacheResponse.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/HttpResponseCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpResponseCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$ChunkedOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport$FixedLengthOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpTransport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl$Retry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl$HttpUrlConnectionDelegate.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl$HttpsEngine.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/IceCreamCordovaWebViewClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/JSONUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/LOG.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/LinearLayoutSoftKeyboardDetect.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/NamedRunnable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue$PrivateApiBridgeMode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/NativeToJsMessageQueue.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/OkHttpClient.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/OkResponseCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/OkResponseCache.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Ping.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android23.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Android41.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$Java5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JdkWithJettyNpnPlatform.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform$JettyNpnProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Platform.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginEntry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginManager$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginManager$PluginManagerService$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginManager$PluginManagerService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginResult$Status.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/PluginResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/it/mobimentum/phonegapspinnerplugin/ProgressActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RawHeaders.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RequestHeaders.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/ResponseHeaders.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/ResponseSource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RetryableOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/Route.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/RouteSelector.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/ScrollEvent.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/Settings.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Builder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection$Reader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyConnection.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader$Handler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream$SpdyDataOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/SpdyTransport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/spdy/SpdyWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/StrictLineReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/Transport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/TunnelRequest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/com/squareup/okhttp/internal/Util.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/Whitelist$URLPattern.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/classes/org/apache/cordova/Whitelist.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/drawable-hdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/drawable-ldpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/drawable-mdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/zh/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/screenshot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/.documentup.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/AbstractHttpInputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/AbstractHttpOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/AbstractOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/AndroidManifest.xml.d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/bin/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/App.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/Base64.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/gen/org/apache/cordova/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc/Plugins/org.apache.cordova.geolocation/CDVLocation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc/Plugins/org.apache.cordova.geolocation/CDVLocation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ios/CDVLocation.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CallbackContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/ChangeLog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/Connection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/ConnectionPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/Coordinates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/Coordinates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaArgs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaChromeClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/CordovaWebViewClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/DirectoryManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/DiskLruCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/Dns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/DroidGap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/ExifHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/FaultRecoveringOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/FileHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/wp/GeoLocation.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/firefoxos/GeolocationProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/windows/GeolocationProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/blackberry10/GeolocationProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HeaderParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpAuthenticator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpEngine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/HttpResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpURLConnectionImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/HttpsURLConnectionImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/IceCreamCordovaWebViewClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/IncomingStreamHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/JSONUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/LOG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/LinearLayoutSoftKeyboardDetect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/NamedRunnable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/OkHttpClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/OkResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/OkResponseCache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/OkResponseCacheAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/Ping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/Platform.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/PluginEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/PluginManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/PluginResult.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/Position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/Position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/PositionError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/PositionError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/it/mobimentum/phonegapspinnerplugin/ProgressActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/src/it/mobimentum/phonegapspinnerplugin/ProgressActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/R.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/RawHeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/RequestHeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/ResponseHeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/ResponseSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/RetryableOutputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/Route.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/RouteSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/ScrollEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/Settings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyConnection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/SpdyTransport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/spdy/SpdyWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc/Plugins/it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/classes/ios/SpinnerPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/src/ios/SpinnerPlugin.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/src/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc/Plugins/it.mobimentum.phonegapspinnerplugin/SpinnerPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/classes/ios/SpinnerPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/src/ios/SpinnerPlugin.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/StrictLineReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/Transport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/TunnelRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/http/UnknownLengthHttpInputStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/com/squareup/okhttp/internal/Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/src/org/apache/cordova/Whitelist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/android_sdk_version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/android_sdk_version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/appinfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/build.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/cat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/cd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/check_reqs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/check_reqs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/chmod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/clean.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/clean.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/clean" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/benchmark/compare-with-callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/xml/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/platform_www/cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/cordova_plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/cp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/defaults.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/dirs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/echo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/emulator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/exec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/scripts/generate-docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ubuntu/geolocation.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/src/ubuntu/geolocation.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/org.apache.cordova.geolocation/www/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/www/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/grep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/de/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/es/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/fr/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/it/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/ja/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/ko/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/pl/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/doc/ru/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/install-device.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/install-device" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/install-emulator.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/install-emulator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-devices.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-devices" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-emulator-images.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-emulator-images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-started-emulators.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/list-started-emulators" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/log.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/ls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/make.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/mkdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/mv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/.settings/org.eclipse.wst.common.project.facet.core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/assets/www/phonegap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/tests/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/popd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/bin/proguard.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/CordovaLib/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/pushd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/pwd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/rm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/scripts/run-tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/run.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/run" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/q/benchmark/scenarios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/sed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/shell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/.bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/bin/shjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/it.mobimentum.phonegapspinnerplugin/www/spinnerplugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/ios/www/plugins/it.mobimentum.phonegapspinnerplugin/www/spinnerplugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/www/spinnerplugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/start-emulator.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/lib/start-emulator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/tempdir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.geolocation/tests/tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/to.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/toEnd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/version.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/version" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/it.mobimentum.phonegapspinnerplugin/cordova/node_modules/shelljs/src/which.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity.ap_" afterPath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" afterPath="$PROJECT_DIR$/platforms/android/ant-build/AndroidManifest.cordova.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/MainActivity.ap_.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/ant-build/build.prop" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" afterPath="$PROJECT_DIR$/platforms/android/ant-build/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/ant-build/classes.dex.d" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ShopDisc/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/customBootstrap.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/customBootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/customBootstrap.css" afterPath="$PROJECT_DIR$/www/customBootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/home.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/home.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/home.js" afterPath="$PROJECT_DIR$/www/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" afterPath="$PROJECT_DIR$/platforms/android/ant-build/proguard.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/ShopDisc.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/ShopDisc.xcodeproj/project.pbxproj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Shop.iws" />
@@ -37,8 +466,8 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.149671">
-              <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.74835527">
+              <caret line="296" column="66" selection-start-line="296" selection-start-column="66" selection-end-line="296" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -47,8 +476,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.076923">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.961538">
+              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -58,7 +487,17 @@
         <entry file="file://$PROJECT_DIR$/www/customBootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Modal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/Modal.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -70,6 +509,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -80,8 +520,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/customBootstrap.css" />
-        <option value="$PROJECT_DIR$/www/customBootstrap.css" />
+        <option value="$PROJECT_DIR$/www/Modal.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/customBootstrap.css" />
         <option value="$PROJECT_DIR$/www/home.js" />
       </list>
     </option>
@@ -122,8 +563,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +597,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -169,11 +610,8 @@
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="home.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="home.js" working-dir="$PROJECT_DIR$/www">
-      <method />
-    </configuration>
-    <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49982/Shop/www/index.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49410/Shop/www/index.html">
@@ -183,6 +621,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49234/Shop/www/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:49195/Shop/www/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -225,18 +666,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.home.js" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.home.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.home.js" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +747,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/customBootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -570,26 +1035,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/customBootstrap.css">
+    <entry file="file://$PROJECT_DIR$/www/Modal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.076923">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.961538">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/customBootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.149671">
-          <caret line="363" column="1" selection-start-line="363" selection-start-column="1" selection-end-line="363" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.74835527">
+          <caret line="296" column="66" selection-start-line="296" selection-start-column="66" selection-end-line="296" selection-end-column="66" />
           <folding />
         </state>
       </provider>
