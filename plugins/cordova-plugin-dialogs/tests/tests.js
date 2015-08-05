@@ -146,11 +146,11 @@ exports.defineManualTests = function (contentEl, createActionButton) {
         '<p/> <div id="prompt"></div>' +
         'Expected result: Dialog will say "You pressed prompt". Enter any message and press Yes, No, or Maybe, Not Sure to close dialog. Status box will tell you what option you selected and message you entered, and should use 1-based indexing.' +
         '<p/> <div id="built_in_alert"></div>' +
-        'Expected result: Dialog will have title "index.html" and say "You pressed alert" Press OK to close dialog. Nothing will get updated in status box.' +
+        'Expected result: Dialog will have title "listings.html" and say "You pressed alert" Press OK to close dialog. Nothing will get updated in status box.' +
         '<p/> <div id="built_in_confirm"></div>' +
-        'Expected result: Dialog will have title "index.html" and say "You selected confirm". Press Cancel or OK to close dialog. Nothing will get updated in status box.' +
+        'Expected result: Dialog will have title "listings.html" and say "You selected confirm". Press Cancel or OK to close dialog. Nothing will get updated in status box.' +
         '<p/> <div id="built_in_prompt"></div>' +
-        'Expected result: Dialog will have title "index.html" and say "This is a prompt". "Default value" will be in text box. Press Cancel or OK to close dialog. Nothing will get updated in status box.';
+        'Expected result: Dialog will have title "listings.html" and say "This is a prompt". "Default value" will be in text box. Press Cancel or OK to close dialog. Nothing will get updated in status box.';
 
     contentEl.innerHTML = '<div id="info"></div>' +
         dialogs_tests;

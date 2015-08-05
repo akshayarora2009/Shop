@@ -20,7 +20,7 @@
             success: function(user){
                 mystateobject.setState ({ isLoading: false });
                 alert('Successfully logged in');
-                //window.location.href="index.html";
+                //window.location.href="listings.html";
                     
             },
             error: function(user,error) {
@@ -109,7 +109,7 @@ var SignUpForm = React.createClass({
                 //window.location.href="user.html";
                 // Hooray! Let them use the app now.
                 MyStateObject.setState({isLoading: false});
-                window.location.href="index.html";
+                window.location.href="listings.html";
             },
             error: function(user, error) {
                 // Show the error message somewhere and let the user try again.

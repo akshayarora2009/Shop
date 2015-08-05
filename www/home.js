@@ -249,7 +249,7 @@ function ReactCode(){
 
         offerClicked: function(c){
 
-
+            React.render(<Modal/>,document.getElementById('bs_modal') );
 
             $('.modal-body').html("<h3>" + c.Title + "</h3><br/><button class='btn btn-default' onclick='this.navigate(c);'>Get Directions</button>" );
             $('#myModal').modal('show');
@@ -297,7 +297,7 @@ function ReactCode(){
                         <a className="navbar-brand" href="#">Oflyn</a>
                     </div>
 
-                    <Modal/>
+                    <div id="bs_modal"/>
 
 
 

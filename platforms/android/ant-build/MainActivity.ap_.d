@@ -67,6 +67,9 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\home.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\index.html \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\jquery.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\listings.html \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\login.html \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\login.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\merchantportal.html \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\merchantportal.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\Modal.js \
@@ -76,6 +79,7 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\pubsub.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\react \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\register.html \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\register.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\signup.html \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap\bootstrap.css \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap\bootstrap.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap\bootstrap.min.css \
@@ -87,6 +91,7 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-ha
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff2 \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\jasny-bootstrap.min.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\welcome.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-dialogs \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-directions \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-vibration \
