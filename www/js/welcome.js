@@ -7,8 +7,8 @@ var Email = React.createClass({
 
         event.preventDefault();
         var email = React.findDOMNode(this.refs.mails).value;
-        window.location.href = "listings.html";
-        /*var EMAIL = Parse.Object.extend("User");
+       // window.location.href = "index.html";
+        var EMAIL = Parse.Object.extend("User");
         var query = new Parse.Query(EMAIL);
         query.equalTo("email", email);
         query.find({
@@ -17,17 +17,17 @@ var Email = React.createClass({
                 {
                     // User does not exist
 
-                    window.location.replace("signup.html");
+                    window.location = "signup.html";
                 }
                 else
                 {
-                    window.location.replace("login.html");
+                    window.location = "login.html";
                 }
             },
             error: function(error) {
 
             }
-        });*/
+        });
 
 
     },

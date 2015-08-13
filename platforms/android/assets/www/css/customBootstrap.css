@@ -1,0 +1,7 @@
+body{
+    padding-top: 50px
+}
+
+#left_menu_toggle:hover{
+    color:inherit;
+}

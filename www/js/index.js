@@ -216,11 +216,11 @@ function ReactCode(){
             var off;
             if(category == 'default')
             {
-                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point));
+                off = (new Parse.Query('masterList').near("Coordinates",point));
             }
             else
             {
-                off = (new Parse.Query('OffersLive').include("PostedBy").near("pos",point).equalTo("MasterCategory",category));
+                off = (new Parse.Query('masterList').near("Coordinates",point).equalTo("MasterCategory",category));
             }
 
 
@@ -241,7 +241,7 @@ function ReactCode(){
         },
         navigate: function(c){
             alert('works');
-        alert(c.latitude);
+            alert(c.latitude);
             alert(c.longitude);
         directions.navigateTo("51.50722", "-0.12750");
 
@@ -313,13 +313,13 @@ function ReactCode(){
                                 return <div onClick={myObj.offerClicked.bind(this,c)}><li key={c.objectId} className="list-group-item"><div className="media">
                                     <div className="media-left">
                                         <a href="#">
-                                            <img style={{height : '64px',width:'64px'}} className="media-object" src={c.Image._url} alt="..."></img>
+                                            <img style={{height : '64px',width:'64px'}} className="media-object" src="assets/logo.png" alt="..."></img>
                                         </a>
                                     </div>
                                     <div className="media-body">
-                                        <h4 className="media-heading">{c.Title}</h4>
-                                        <h5>{c.PostedBy.PlaceName}</h5>
-                                        <h5>{c.PostedBy.BranchName}<span className="pull-right">{(point.kilometersTo(c.pos)).toFixed(2)} km</span></h5>
+                                        <h4 className="media-heading">{c.PlaceName}</h4>
+
+                                        <h5>{c.BranchName}<span className="pull-right">{(point.kilometersTo(c.Coordinates)).toFixed(2)} km</span></h5>
 
 
                                     </div>
