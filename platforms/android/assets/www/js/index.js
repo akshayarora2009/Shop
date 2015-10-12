@@ -104,7 +104,7 @@ function onDeviceReady(){
 
     var internet = navigator.connection.type;
 
-    if( internet == "none")
+    if( internet === "none")
     {
 
         function alertDismissed() {
@@ -209,6 +209,13 @@ function ReactCode(){
             return {update: true};
         },
 
+        componentDidMount: function(){
+            componentHandler.upgradeDom();
+        },
+
+        componentDidUpdate: function(){
+            componentHandler.upgradeDom();
+        },
 
 
         observe: function(){
@@ -257,78 +264,87 @@ function ReactCode(){
         },
 
 
+
         render: function(){
 
 
             var myObj = this;
 
+
             return(
-                <div>
-                    <div className="navmenu navmenu-default navmenu-fixed-left offcanvas-sm">
-                        <a className="navmenu-brand visible-md visible-lg" href="#">Oflyn</a>
-                        <ul className="nav navmenu-nav">
-                            <li className="active"><a href="./">..</a></li>
-                        </ul>
-                        <ul className="nav navmenu-nav">
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li className="dropdown">
-                                <a href="#" className="dropdown-toggle" data-toggle="dropdown">Dropdown <b className="caret"></b></a>
-                                <ul className="dropdown-menu navmenu-nav">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li className="divider"></li>
-                                    <li className="dropdown-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
+                <div >
+                        <div id="bs_modal"></div>
+
+
+                    <div id="header-parent" className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                        <header className="mdl-layout__header">
+                            <div className="mdl-layout__header-row">
+
+                                <span className="mdl-layout-title">Title</span>
+
+                                <div className="mdl-layout-spacer"></div>
+
+                                <nav className="mdl-navigation mdl-layout--large-screen-only">
+                                    <a className="mdl-navigation__link" href="">Link</a>
+                                    <a className="mdl-navigation__link" href="">Link</a>
+                                    <a className="mdl-navigation__link" href="">Link</a>
+                                    <a className="mdl-navigation__link" href="">Link</a>
+                                </nav>
+                            </div>
+                        </header>
+                        <div className="mdl-layout__drawer">
+                            <span className="mdl-layout-title">Title</span>
+                            <nav className="mdl-navigation">
+                                <a className="mdl-navigation__link" href="">Link</a>
+                                <a className="mdl-navigation__link" href="">Link</a>
+                                <a className="mdl-navigation__link" href="">Link</a>
+                                <a className="mdl-navigation__link" href="">Link</a>
+                            </nav>
+                        </div>
+                        <main className="mdl-layout__content">
+                            <div className="page-content">
+
+
+                                <ul className="list-group">
+
+                                    {
+
+                                        this.data.offers.map(function(c){
+                                            console.log(c);
+
+
+                                            return <div onClick={myObj.offerClicked.bind(this,c)}><li key={c.objectId} className="list-group-item"><div className="media">
+                                                <div className="media-left">
+                                                    <a href="#">
+                                                        <img style={{height : '64px',width:'64px'}} className="media-object" src="assets/logo.png" alt="..."></img>
+                                                    </a>
+                                                </div>
+                                                <div className="media-body">
+                                                    <h4 className="media-heading">{c.PlaceName}</h4>
+
+                                                    <h5>{c.BranchName}<span className="pull-right">{(point.kilometersTo(c.Coordinates)).toFixed(2)} km</span></h5>
+
+
+                                                </div>
+                                            </div></li></div>
+
+                                        })
+                                    }
                                 </ul>
-                            </li>
-                        </ul>
+
+
+                            </div>
+                        </main>
                     </div>
 
-                    <div className="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
-                        <button type="button" id="left_menu_toggle" className="navbar-toggle pull-left" data-toggle="offcanvas" data-target=".navmenu">
-                            <span className="icon-bar"></span>
-                            <span className="icon-bar"></span>
-                            <span className="icon-bar"></span>
-                        </button>
-                        <a className="navbar-brand" href="#">Oflyn</a>
+
+
                     </div>
 
-                    <div id="bs_modal"/>
 
 
 
 
-                    <ul className="list-group">
-
-                        {
-
-                            this.data.offers.map(function(c){
-                                console.log(c);
-
-
-                                return <div onClick={myObj.offerClicked.bind(this,c)}><li key={c.objectId} className="list-group-item"><div className="media">
-                                    <div className="media-left">
-                                        <a href="#">
-                                            <img style={{height : '64px',width:'64px'}} className="media-object" src="assets/logo.png" alt="..."></img>
-                                        </a>
-                                    </div>
-                                    <div className="media-body">
-                                        <h4 className="media-heading">{c.PlaceName}</h4>
-
-                                        <h5>{c.BranchName}<span className="pull-right">{(point.kilometersTo(c.Coordinates)).toFixed(2)} km</span></h5>
-
-
-                                    </div>
-                                </div></li></div>
-
-                            })
-                        }
-                    </ul>
-                </div>
             );
         }
 

@@ -2,6 +2,15 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$USER_HOME$/WebstormProjects/CORStest/test/index.html" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/css/config.css" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/home.html" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/index.html" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/js/home.js" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/js/index.js" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/js/mdl.js" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/Nextup/src/mdl-dashboard.html" charset="UTF-8" />
     <file url="file://$USER_HOME$/WebstormProjects/TrueOrFalse/src/index.html" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/WT_A3/src/WT/index.html" charset="UTF-8" />
+    <file url="file://$USER_HOME$/WebstormProjects/WT_A3/src/WT/index.jsx" charset="UTF-8" />
   </component>
 </project>

@@ -78,6 +78,8 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\react \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\register.html \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\register.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\signup.html \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\temp.html \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\temp.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\assets\logo.png \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap\bootstrap.css \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\bootstrap\bootstrap.js \
@@ -90,9 +92,11 @@ c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-ha
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-halflings-regular.ttf \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\fonts\glyphicons-halflings-regular.woff2 \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\index-touch.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\index.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\Modal.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\js\welcome.js \
+c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\libraries\hammer.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\libraries\jasny-bootstrap.min.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\libraries\jquery.js \
 c:\Users\sony\Desktop\Shop\Shop\platforms\android\assets\www\plugins\cordova-plugin-dialogs \
